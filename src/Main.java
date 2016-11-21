@@ -1,8 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * Created by Yoo on 2016-10-19.
@@ -16,21 +14,9 @@ public class Main {
      */
     static BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
     /**
-     * The Espresso.
-     */
-    static final int ESPRESSO = 1, /**
-     * The Americano.
-     */
-    AMERICANO = 2, /**
-     * The Fluitjuice.
-     */
-    FLUITJUICE = 3, /**
-     * The Caffelatte.
-     */
-    CAFFELATTE = 4, /**
      * The Exit.
      */
-    EXIT = 0;
+    static final int EXIT = 0;
     /**
      * The Order.
      */

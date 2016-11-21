@@ -10,9 +10,7 @@ import java.util.*;
 
 public class Order {
     private final int ESPRESSO = 1, AMERICANO = 2, FLUITJUICE = 3, CAFFELATTE = 4, EXIT = 0;
-    private final String ESPRESSO_STR = "Espresso", AMERICANO_STR = "Americano", FLUITJUICE_STR = "FluitJuice", CAFFELATTE_STR = "CaffeLatte";
     private Queue<Beverages> orderList;
-    private TreeMap<String, Integer> orderList1;
     private int espressoCnt, americanoCnt, fluitJuiceCnt, caffeLatteCnt;
     private int total_time;
     private int espressoTime, americanoTime, fluitJuiceTime, caffeLatteTime;

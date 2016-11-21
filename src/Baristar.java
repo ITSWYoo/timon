@@ -4,7 +4,7 @@ import java.util.List;
 /**
  * Created by Yoo on 2016-10-19.
  */
-public class Baristar {
+abstract public class Baristar {
     private String name;
     private int total_time;
     private int espressoAble_time;

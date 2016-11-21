@@ -1,7 +1,7 @@
 /**
  * Created by Yoo on 2016-10-19.
  */
-public class Beverages {
+abstract public class Beverages {
     private CoffeeType beveragedId;
     private int count;
     private int timeMinute;

@@ -253,7 +253,6 @@ public class Order {
      * Divide order.
      */
 //분배 알고리즘
-
     public void divideOrder() {
 
         //주문 Queue가 빌떄까지.

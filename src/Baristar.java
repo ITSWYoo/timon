@@ -123,7 +123,7 @@ public class Baristar {
     /**
      * Instantiates a new Baristar.
      */
-    public Baristar(){
+    public Baristar() {
         espressoAble_time = 2;
         americanoAble_time = 3;
         fluitJuiceAble_time = 5;
@@ -139,7 +139,7 @@ public class Baristar {
      * @param fluitJuiceAble_time the fluit juice able time
      * @param caffeLatteAble_time the caffe latte able time
      */
-    public Baristar(String name ,int espressoAble_time, int americanoAble_time, int fluitJuiceAble_time, int caffeLatteAble_time) {
+    public Baristar(String name, int espressoAble_time, int americanoAble_time, int fluitJuiceAble_time, int caffeLatteAble_time) {
         this.name = name;
         this.espressoAble_time = espressoAble_time;
         this.americanoAble_time = americanoAble_time;
@@ -151,7 +151,7 @@ public class Baristar {
 /**
  * The type Baristar a.
  */
-class BaristarA extends Baristar{
+class BaristarA extends Baristar {
     /**
      * Instantiates a new Baristar a.
      */
@@ -165,34 +165,26 @@ class BaristarA extends Baristar{
 /**
  * The type Baristar b.
  */
-class BaristarB extends Baristar{
+class BaristarB extends Baristar {
     /**
      * Instantiates a new Baristar b.
      */
-    public BaristarB(){
+    public BaristarB() {
         super();
         super.setAmericanoAble_time(4);
         super.setName("B");
+
     }
 }
-class Q{
-    private static Q q;
-    public static Q getInstance(){
-        if(q==null) {
-            q = new Q();
-            return q;
-        }
-        else return q;
-    }
-}
+
 /**
  * The type Baristar c.
  */
-class BaristarC extends Baristar{
+class BaristarC extends Baristar {
     /**
      * Instantiates a new Baristar c.
      */
-    public BaristarC(){
+    public BaristarC() {
         super();
         super.setName("C");
     }
@@ -201,11 +193,11 @@ class BaristarC extends Baristar{
 /**
  * The type Baristar d.
  */
-class BaristarD extends Baristar{
+class BaristarD extends Baristar {
     /**
      * Instantiates a new Baristar d.
      */
-    public BaristarD(){
+    public BaristarD() {
         super();
         super.setCaffeLatteAble_time(5);
         super.setName("D");
